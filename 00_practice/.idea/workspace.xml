@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a5e91b8-4323-4bfc-877f-981e663faa74" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section01/arithmatic/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section02/assignment/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section03/increment/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section04/comparsion/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section05/logical/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section05/logical/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16_LIMNAYEON/chap02-operator-lecture-source/src/main/java/com/ohgiraffers/section06/ternary/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/chap01-literal-and-variable-practice-question/src/main/java/com/ohgiraffers/level01/basic/Application1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nyaeon"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nyaeon/03_Java.git",
+    "accountId": "70b9324a-8ab8-4e3a-a38e-dbb278574fdf"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2utORohYcz2rwqTnVpvr3gvW9jq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/03_Java/00_practice",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="1a5e91b8-4323-4bfc-877f-981e663faa74" name="변경" comment="" />
+      <created>1743064399104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743064399104</updated>
+      <workItem from="1743064400180" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
