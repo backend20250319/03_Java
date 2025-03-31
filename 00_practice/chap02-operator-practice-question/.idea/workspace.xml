@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ab1824-97f2-4ad2-a8d7-78c07b035bae" name="Changes" comment="" />
+    <list default="true" id="b5ab1824-97f2-4ad2-a8d7-78c07b035bae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../13_LEEJIYONG/00_practice/chap02-operator-practice-question/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_LEEJIYONG/00_practice/chap02-operator-practice-question/.idea/material_theme_project_new.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -25,29 +39,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application1.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application2.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/03_Java/00_practice/chap02-operator-practice-question&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application1.main()].executor": "Run",
+    "Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application2.main()].executor": "Run",
+    "Gradle.chap02-operator-practice-question [:com.ohgiraffers.operatorPractice.Application3.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/gyong/dev/03_Java/00_practice/chap02-operator-practice-question",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
       </set>
     </attachedChunks>
   </component>
@@ -62,6 +76,7 @@
       <workItem from="1743066467280" duration="317000" />
       <workItem from="1743066824361" duration="586000" />
       <workItem from="1743067427845" duration="16000" />
+      <workItem from="1743170046236" duration="7000" />
     </task>
     <servers />
   </component>
