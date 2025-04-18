@@ -1,7 +1,7 @@
 package com.ohgiraffers.hw2.view;
 
 import com.ohgiraffers.hw2.controller.BoardManager;
-import com.ohgiraffers.hw2.model.comparator.AscBoardNo;
+import com.ohgiraffers.hw2.model.comparator.*;
 
 import java.util.Scanner;
 
@@ -10,20 +10,20 @@ public class BoardMenu {
 
     Scanner sc = new Scanner(System.in);
 
-    private BoardManager bm;
-    private InputBoard ib;
+    private BoardManager bm = new BoardManager();  // 이 줄 중요
+    private InputBoard ib = new InputBoard();
 
     public void mainMenu() {
         String menu = """
                 *** 게시글 서비스 프로그램 ***
                 1. 게시글 쓰기
-                2. 게시글 전체보기
-                3. 게시글 한개 보기
+                2. 게시글 전체 보기
+                3. 게시글 한 개 보기
                 4. 게시글 제목 수정
                 5. 게시글 내용 수정
                 6. 게시글 삭제
                 7. 게시글 제목 검색
-                8. 정렬하기
+                8. 정렬
                 9. 끝내기
                 메뉴 번호 선택 : """;
         while(true) {
@@ -66,11 +66,11 @@ public class BoardMenu {
             int menuNo = sc.nextInt();
             switch (menuNo) {
                 case 1 : bm.sortList(new AscBoardNo()); break;
-                case 2 : break;
-                case 3 : break;
-                case 4 : break;
-                case 5 : break;
-                case 6 : break;
+                case 2 : bm.sortList(new DescBoardNo()); break;
+                case 3 : bm.sortList(new AscBoardDate()); break;
+                case 4 : bm.sortList(new DescBoardDate()); break;
+                case 5 : bm.sortList(new AscBoardTitle()); break;
+                case 6 : bm.sortList(new DescBoardTitle()); break;
                 case 7 :
                     System.out.println("mainMenu로 돌아갑니다.");
                     return;

@@ -9,29 +9,43 @@ public class InputBoard {
     Scanner sc = new Scanner(System.in);
 
     public BoardDTO inputBoard() {
-        System.out.println("글 제목을 입력해주세요.");
-        String boardTitle = sc.nextLine();
+        String boardTitle = inputBoardTitle();
         System.out.println("작성자 이름을 입력해주세요.");
         String boardWriter = sc.nextLine();
+        int boardNo = inputBoardNo();
         Date boardDate = new Date();
-        System.out.println("======= 글 내용 =======");
-        String boardContent = sc.nextLine();
+        String boardContent = inputBoardContent();
         int readCount = 0;
 
-        BoardDTO boardDTO = new BoardDTO(boardTitle, boardWriter, boardDate, boardContent, readCount);
+        BoardDTO boardDTO = new BoardDTO(boardNo, boardTitle, boardWriter, boardDate, boardContent, readCount);
         return boardDTO;
     };
 
     public int inputBoardNo() {
-        return 0;
+        System.out.println("글 번호를 입력하세요 : ");
+        int boardNo = sc.nextInt();
+        return boardNo;
     };
 
     public String inputBoardTitle() {
-        return null;
+        System.out.println("글 제목을 입력해주세요 : ");
+        String boardTitle = sc.nextLine();
+        return boardTitle;
     };
 
     public String inputBoardContent() {
-        return null;
+        System.out.println("================= 글 내용 (입력 종료 : exit) =================");
+        StringBuilder boardContent = new StringBuilder();
+
+        while (true) {
+            String line = sc.nextLine();
+            if(line.equals("exit")) {
+                break;
+            }
+            boardContent.append(line).append("\n");
+        }
+        return boardContent.toString();
     };
 
 }
+
